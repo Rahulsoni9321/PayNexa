@@ -8,6 +8,8 @@ import { authOptions } from "./lib/auth";
 export default function Page(): JSX.Element {
   const session = useSession();
  
+
+  
   console.log(session.data?.user)
   return (
   <>
