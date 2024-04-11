@@ -5,6 +5,9 @@ import bcrypt from "bcrypt";
 export const authOptions = {
     providers: [
       CredentialsProvider({
+
+
+        
           name: 'Credentials',
           credentials: {
             Email:{label:"Email",type:"text",placeholder:"Enter your email"},
